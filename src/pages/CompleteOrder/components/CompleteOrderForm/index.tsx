@@ -11,12 +11,12 @@ export function CompleteOrderForm() {
   return (
     <CompleteOrderFormContainer>
       <TitleText size="xs" color="subtitle">
-        Complete seu pedido
+        Complete your order
       </TitleText>
       <FormSectionContainer>
         <SectionTitle
-          title="Endereço de Entrega"
-          subtitle="Informe o endereço onde deseja receber seu pedido"
+          title="Delivery Address"
+          subtitle="Enter the address where you wish to receive your order"
           icon={<MapPinLine color={colors["brand-yellow-dark"]} size={22} />}
         />
 
@@ -24,8 +24,8 @@ export function CompleteOrderForm() {
       </FormSectionContainer>
       <FormSectionContainer>
         <SectionTitle
-          title="Pagamento"
-          subtitle="O pagamento é feito na entrega. Escolha a forma que deseja pagar"
+          title="Payment Method"
+          subtitle="Payment is made upon delivery. Choose the method you wish to pay"
           icon={<CurrencyDollar color={colors["brand-purple"]} size={22} />}
         />
         <PaymentMethodOptions />

@@ -48,13 +48,13 @@ export function CoffeeCartCard({ coffee }: CoffeeCartCardProps) {
             />
             <RemoveButton type="button" onClick={handleRemove}>
               <Trash size={16} />
-              REMOVER
+              REMOVE
             </RemoveButton>
           </ActionsContainer>
         </div>
       </div>
 
-      <p>R$ {formattedPrice}</p>
+      <p>$ {formattedPrice}</p>
     </CoffeeCartCardContainer>
   );
 }

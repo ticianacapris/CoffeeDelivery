@@ -18,42 +18,42 @@ export function AddressForm() {
   return (
     <AddressFormContainer>
       <Input
-        placeholder="CEP"
+        placeholder="Postal Code"
         type="number"
         className="cep"
         {...register("cep")}
         error={errors.cep?.message}
       />
       <Input
-        placeholder="Rua"
+        placeholder="Street"
         className="street"
         {...register("street")}
         error={errors.street?.message}
       />
       <Input
         type="number"
-        placeholder="Número"
+        placeholder="Number"
         {...register("number")}
         error={errors.number?.message}
       />
       <Input
-        placeholder="Complemento"
+        placeholder="Complement"
         className="complement"
         {...register("complement")}
         error={errors.complement?.message}
         rightText="Opcional"
       />
       <Input
-        placeholder="Bairro"
+        placeholder="District"
         {...register("district")}
         error={errors.district?.message}
       />
       <Input
-        placeholder="Cidade"
+        placeholder="City"
         {...register("city")}
         error={errors.city?.message}
       />
-      <Input placeholder="UF" {...register("uf")} error={errors.uf?.message} />
+      <Input placeholder="State" {...register("state")} error={errors.uf?.message} />
     </AddressFormContainer>
   );
 }

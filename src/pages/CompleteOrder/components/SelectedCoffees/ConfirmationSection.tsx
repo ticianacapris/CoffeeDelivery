@@ -17,11 +17,11 @@ export function ConfirmationSection() {
   return (
     <ConfirmationSectionContainer>
       <div>
-        <RegularText size="s">Total de itens</RegularText>
+        <RegularText size="s">Total of itens</RegularText>
         <RegularText>R$ {formattedItemsTotal}</RegularText>
       </div>
       <div>
-        <RegularText size="s">Entrega</RegularText>
+        <RegularText size="s">Delivery</RegularText>
         <RegularText>R$ {formattedDeliveryPrice}</RegularText>
       </div>
       <div>

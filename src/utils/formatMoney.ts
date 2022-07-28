@@ -1,5 +1,5 @@
 export function formatMoney(value: number) {
-  return value.toLocaleString("pt-BR", {
+  return value.toLocaleString("pt-PT", {
     minimumFractionDigits: 2,
   });
 }
